@@ -1,6 +1,7 @@
 # The Ultimate Guide to Object-Oriented Programming in C++ (v1.0.0)
 
-![the ultimate](https://github.com/fx-biocoder/oop-in-cpp/assets/90737264/08d16801-91e7-433a-ad48-8e401c84f20e)
+![the ultimate](https://github.com/fx-biocoder/oop-in-cpp/assets/90737264/24ecc3d3-f50d-411c-a182-d27cdf1794f2)
+
 
 ## 1. Contents
 
