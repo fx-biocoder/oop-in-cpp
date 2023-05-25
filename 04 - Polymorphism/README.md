@@ -29,15 +29,16 @@ class BaseClass
 
 class DerivedClass : public BaseClass
 {
-	DerivedClass() = default;
-	~DerivedClass() = default;
-	void myMethod() override { std::cout << "Method was overridden" << std::endl; }
+	public:
+		DerivedClass() = default;
+		~DerivedClass() = default;
+		void myMethod() override { std::cout << "Method was overridden" << std::endl; }
 };
 
 int main()
 {
 	BaseClass* myPointer = new DerivedClass;
-	myPointer.myMethod();
+	myPointer->myMethod();
 }
 ```
 
