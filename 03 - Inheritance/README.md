@@ -269,8 +269,41 @@ On the other hand, an interface is a class that relies entirely on pure virtual 
 Let's apply these concepts to the previous example:
 
 ```cpp
-// Section in progress...
+// Abstract polygon
+class Polygon
+{
+	public:
+		Polygon() { std::cout << "Polygon created" << std::endl; }
+		virtual ~Polygon() { std::cout << "Polygon destroyed" << std::endl; }
+		virtual void typeOfPolygon() 
+		{
+			// Empty...
+		}
+};
+
+// Interface
+class IPolygon
+{
+	public:
+		IPolygon() = default;
+		virtual ~IPolygon() = default;
+		virtual int calculateArea() = 0;	// Pure virtual function!
+};
+
+// Polygon's child class that also implements the interface
+class Square : public Polygon, public IPolygon
+{
+	private:
+		int sideLenght = 5;
+	public:
+		Square() = default;
+		~Square() = default;
+
+		void typeOfPolygon() override { std::cout << "It's a square." << std::endl; }
+		int calculateArea() override { return sideLenght * 2; }
+};
 ```
+
 
 ## Final notes
 
