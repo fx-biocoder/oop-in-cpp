@@ -10,6 +10,10 @@
 3. [Inheritance](https://github.com/fx-biocoder/oop-in-cpp/tree/main/03%20-%20Inheritance)
 4. [Polymorphism](https://github.com/fx-biocoder/oop-in-cpp/tree/main/04%20-%20Polymorphism)
 
+## 1.1 Scope
+
+This guide provides a fundamental, introductory explanation of Object-Oriented programming. As the audience is quite diverse and includes beginners in programming, it may not be the most suitable approach to incorporate all the best coding practices in this guide right away. I am open to continuous improvement on its content (and I will certainly do my best to adjust it to current C++ practices), but I will not do it in a way that results in a less comprehensible content.
+
 ## 2. Release notes (1.0.0)
 
 This is the first edition of this guide. You may notice that certain topics may need further development, particularly the topic of polymorphism, and you may also observe some overlap among the principles of object-oriented programming. Nevertheless, I wanted to release an initial version quickly and be able to proceed with other projects and obligations that I have pending.
