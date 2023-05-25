@@ -131,7 +131,7 @@ When establishing a class hierarchy, there are situations where we need to defin
 
 By understanding these three types of member functions, you can determine which functions can be overridden and choose the appropriate approach based on your requirements.
 
-## 5. Resolving virtual functions with dynamic linking in the context of class inheritance
+## 5. Resolving virtual functions with dynamic binding in the context of class inheritance
 
 So, now that we have established what virtual functions are, how do we implement them in real code? Let's consider an abstract class called Polygon, from which we derive subclasses representing specific types of polygons - triangles, squares, pentagons, and so on. Let's see how we can translate this into actual code:
 
@@ -212,7 +212,7 @@ Now, let me explain in detail. I have created two pointers of type `Polygon` tha
 
 ## 6. Constructors and destructors in class inheritance
 
-We have seen how to handle virtual functions with dynamic linking, but we are still unsure about the order in which constructors and destructors are called during runtime. Let's execute the following program:
+We have seen how to handle virtual functions with dynamic binding, but we are still unsure about the order in which constructors and destructors are called during runtime. Let's execute the following program:
 
 ```cpp
 int main()
