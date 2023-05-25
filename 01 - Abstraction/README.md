@@ -172,7 +172,7 @@ class ClassName
 		// Constructor method
 		ClassName()
 		{
-			this->integerVariable = 10;		// Setting the integer to 10
+			this->integerVariable = 10;	// Setting the integer to 10
 			this->booleanVariable = true;	// Setting the boolean to true
 		}
 	
@@ -187,7 +187,7 @@ Success! We have successfully utilized a constructor and covered the implementat
 // Constructor
 ClassName(int integer, bool boolean)
 {
-	this->integerVaruable = integer;
+	this->integerVariable = integer;
 	this->booleanVariable = boolean;
 }
 ```
@@ -196,7 +196,7 @@ ClassName(int integer, bool boolean)
 
 So far, we have provided a brief introduction to Object-Oriented Programming. Abstraction becomes more intricate as it intertwines with other concepts such as inheritance and polymorphism.
 
-Inheritance enables the creation of class hierarchies, facilitating the sharing of common behaviors among classes. On the other hand, polymorphism allows you to treat objects from derived classes as objects of their own base class. For further information on inheritance and polymorphism, you can refer to resources available here and here.
+Inheritance enables the creation of class hierarchies, facilitating the sharing of common behaviors among classes. On the other hand, polymorphism allows you to treat objects from derived classes as objects of their own base class. For further information on inheritance and polymorphism, you can refer to resources available [here](https://github.com/fx-biocoder/oop-in-cpp/tree/main/03%20-%20Inheritance) and [here](https://github.com/fx-biocoder/oop-in-cpp/tree/main/04%20-%20Polymorphism).
 
 That concludes our discussion for now. I trust you have found this article to be informative and helpful!
 
