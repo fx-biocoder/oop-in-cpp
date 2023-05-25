@@ -16,7 +16,7 @@ This is the first edition of this guide. You may notice that certain topics may 
 
 ### Topics to be included in the next release:
 
-- Relationships between classes (association, aggregation, composition)
+- Relationships between classes (association, aggregation, composition, dependency)
 - Testing and debugging of object-oriented code
 - Object-oriented design patterns
 
