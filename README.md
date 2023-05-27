@@ -3,7 +3,7 @@
 ![the ultimate](https://github.com/fx-biocoder/oop-in-cpp/assets/90737264/24ecc3d3-f50d-411c-a182-d27cdf1794f2)
 
 
-## 1. Contents
+## 1.0 Contents
 
 1. [Abstraction](https://github.com/fx-biocoder/oop-in-cpp/blob/main/01%20-%20Abstraction/README.md)
 2. [Encapsulation](https://github.com/fx-biocoder/oop-in-cpp/tree/main/02%20-%20Encapsulation)
@@ -23,6 +23,10 @@ This is the first edition of this guide. You may notice that certain topics may 
 - Relationships between classes (association, aggregation, composition, dependency)
 - Testing and debugging of object-oriented code
 - Object-oriented design patterns
+
+### "I want to help you improve this guide. How can I do it?"
+
+If you have any feedback regarding the contents of this guide, such as corrections or possible additions, please create a new issue [here](https://github.com/fx-biocoder/oop-in-cpp/issues). This will allow me to keep track of future modifications that need to be implemented. I greatly appreciate the valuable feedback I have received from users. However, please note that I prioritize suggestions that are submitted through the appropriate channels, as there have been instances of comments made in bad faith that were disguised as feedback.
 
 ## 3. Author
 
