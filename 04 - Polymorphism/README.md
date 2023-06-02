@@ -54,4 +54,6 @@ In the previous example, we have defined a class that inherits from a base class
 
 This article was created by Facundo Martínez © 2023. It is licensed under CC BY-NC-SA 4.0
 
-If you have found it beneficial, kindly consider [supporting me on Ko-Fi](https://ko-fi.com/biocoder). Your contribution will assist me in creating more high-quality free content for the benefit of all.
+I love creating free content for everyone. If my articles and repos were useful to you, please consider supporting me on Github Sponsors, Ko-Fi or PayPal. It would be of great help and I would really appreciate it!
+
+[![Github-sponsors](https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#EA4AAA)](https://github.com/sponsors/fx-biocoder) [![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/biocoder) [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/facumartinez680)
