@@ -16,26 +16,25 @@ In the context of Object-Oriented Programming, a base class serves as the founda
 #include <string>
 class Car
 {
-	private:
+	protected:
 		int numberOfWheels = 4;
 		int numberOfPedals = 3;
 		std::string licensePlate;
 		bool isRunning = false;
-	
-	protected:
 		std::string transmission = "Manual";
-		
+
 	public:
 		// Constructor, destructor
+		Car() = default;
 		Car(std::string plate) { this->licensePlate = plate; }
 		~Car() = default;
-	
+
 		// Start or stop engine
 		void startEngine() { this->isRunning = true; }
 		void stopEngine() { this->isRunning = false; }
-		
+
 		// Tells if the car is running
-		std::string isTheCarRunning() 
+		std::string isTheCarRunning()
 		{
 			if (isRunning) { return "The car is running"; }
 			else { return "The car is not running"; }
@@ -53,15 +52,11 @@ Now that we have a base class, let's consider how we can define a class that tak
 class Toyota : public Car
 {
 	private:
-		int numberOfWheels = 4;
-		int numberOfPedals = 3;
-		std::string licensePlate;
-		bool isRunning = false;
 		std::string carModel;
-		
+
 	public:
-		Toyota(std::string model, std::string plate) 
-		{ 
+		Toyota(std::string model, std::string plate)
+		{
 			this->carModel = model;
 			this->licensePlate = plate;
 		}
@@ -74,7 +69,7 @@ class Toyota : public Car
 Let's test the following:
 
 1. Did the class Toyota inherit the public methods from the base class Car?
-2. Can the class Toyota access the protected attribute present in the base class Car?
+2. Can the class Toyota access the protected attributes present in the base class Car?
 
 To find out, let's execute the following script:
 
