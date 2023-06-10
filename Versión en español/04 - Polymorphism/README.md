@@ -14,8 +14,8 @@ Una función virtual puede ser definida como una función miembro declarada en u
 
 En el capítulo anterior, hemos discutido el comportamiento de las funciones virtuales. Si necesitas revisar este tema, por favor sigue estos enlaces:
 
-- [Leer: Anulación de funciones en la herencia de clases]()
-- [Leer: Resolución de funciones virtuales con enlace dinámico en el contexto de la herencia de clases]()
+- [Leer: Anulación de funciones en la herencia de clases](https://github.com/fx-biocoder/oop-in-cpp/tree/main/Versi%C3%B3n%20en%20espa%C3%B1ol/04%20-%20Polymorphism)
+- [Leer: Resolución de funciones virtuales con enlace dinámico en el contexto de la herencia de clases](https://github.com/fx-biocoder/oop-in-cpp/tree/main/Versi%C3%B3n%20en%20espa%C3%B1ol/04%20-%20Polymorphism)
 
 ## 3. Herencia y polimorfismo
 
