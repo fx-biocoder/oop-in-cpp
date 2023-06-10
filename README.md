@@ -5,10 +5,10 @@
 
 ## 1.0 Contents
 
-1. [Abstraction](https://github.com/fx-biocoder/oop-in-cpp/blob/main/01%20-%20Abstraction/README.md)
-2. [Encapsulation](https://github.com/fx-biocoder/oop-in-cpp/tree/main/02%20-%20Encapsulation)
-3. [Inheritance](https://github.com/fx-biocoder/oop-in-cpp/tree/main/03%20-%20Inheritance)
-4. [Polymorphism](https://github.com/fx-biocoder/oop-in-cpp/tree/main/04%20-%20Polymorphism)
+1. Abstraction: [English](https://github.com/fx-biocoder/oop-in-cpp/blob/main/01%20-%20Abstraction/README.md) | [Español](https://github.com/fx-biocoder/oop-in-cpp/tree/main/Versi%C3%B3n%20en%20espa%C3%B1ol/01%20-%20Abstracci%C3%B3n)
+2. Encapsulation: [English](https://github.com/fx-biocoder/oop-in-cpp/tree/main/02%20-%20Encapsulation) | [Español](https://github.com/fx-biocoder/oop-in-cpp/tree/main/Versi%C3%B3n%20en%20espa%C3%B1ol/02%20-%20Encapsulation)
+3. Inheritance: [English](https://github.com/fx-biocoder/oop-in-cpp/tree/main/03%20-%20Inheritance) | [Español](https://github.com/fx-biocoder/oop-in-cpp/tree/main/Versi%C3%B3n%20en%20espa%C3%B1ol/03%20-%20Inheritance)
+4. Polymorphism: [English](https://github.com/fx-biocoder/oop-in-cpp/tree/main/04%20-%20Polymorphism) | [Español](https://github.com/fx-biocoder/oop-in-cpp/tree/main/Versi%C3%B3n%20en%20espa%C3%B1ol/04%20-%20Polymorphism)
 
 ## 1.1 Scope
 
