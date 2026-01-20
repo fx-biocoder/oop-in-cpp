@@ -5,32 +5,63 @@
 
 ## 1.0 Contents
 
-1. Abstraction: [English](https://github.com/fx-biocoder/oop-in-cpp/blob/main/01%20-%20Abstraction/README.md) | [Español](https://github.com/fx-biocoder/oop-in-cpp/tree/main/Versi%C3%B3n%20en%20espa%C3%B1ol/01%20-%20Abstracci%C3%B3n)
-2. Encapsulation: [English](https://github.com/fx-biocoder/oop-in-cpp/tree/main/02%20-%20Encapsulation) | [Español](https://github.com/fx-biocoder/oop-in-cpp/tree/main/Versi%C3%B3n%20en%20espa%C3%B1ol/02%20-%20Encapsulation)
-3. Inheritance: [English](https://github.com/fx-biocoder/oop-in-cpp/tree/main/03%20-%20Inheritance) | [Español](https://github.com/fx-biocoder/oop-in-cpp/tree/main/Versi%C3%B3n%20en%20espa%C3%B1ol/03%20-%20Inheritance)
-4. Polymorphism: [English](https://github.com/fx-biocoder/oop-in-cpp/tree/main/04%20-%20Polymorphism) | [Español](https://github.com/fx-biocoder/oop-in-cpp/tree/main/Versi%C3%B3n%20en%20espa%C3%B1ol/04%20-%20Polymorphism)
+1. [Abstraction](./01_abstraction/README.md)
+2. [Encapsulation](./02_encapsulation/README.md)
+3. [Inheritance](./03_inheritance/README.md)
+4. [Polymorphism](./04_polymorphism/README.md)
+5. [Modern C++ Overview](./05_modern_cpp/README.md)
+6. [Best Practices](./06_best_practices/README.md) 
+
 
 ## 1.1 Scope
 
-This guide provides a fundamental, introductory explanation of Object-Oriented programming. As the audience is quite diverse and includes beginners in programming, it may not be the most suitable approach to incorporate all the best coding practices in this guide right away. I am open to continuous improvement on its content (and I will certainly do my best to adjust it to current C++ practices), but I will not do it in a way that results in a less comprehensible content.
+This guide provides a comprehensive explanation of Object-Oriented programming in **modern C++ (C++17/20)**. The content has been completely updated to reflect contemporary best practices including:
 
-## 2. Release notes (1.0.0)
+- Smart pointers and modern memory management
+- Move semantics and rvalue references
+- Const-correctness and RAII principles
+- Modern constructor patterns and initializer lists
+- Standard Library containers and algorithms
+- Type safety and compiler-assisted correctness
 
-This is the first edition of this guide. You may notice that certain topics may need further development, particularly the topic of polymorphism, and you may also observe some overlap among the principles of object-oriented programming. Nevertheless, I wanted to release an initial version quickly and be able to proceed with other projects and obligations that I have pending.
+The guide emphasizes pedagogical clarity over so-called "real world examples". Still, it shows current best practices and code patterns.
 
-### Topics to be included in the next release:
+## 2. Release notes (2.0.0)
 
-- Relationships between classes (association, aggregation, composition, dependency)
-- Testing and debugging of object-oriented code
-- Object-oriented design patterns
+**Major Update:** Complete modernization to C++17/20 standards with comprehensive improvements.
+
+### What's New in This Version:
+
+- ✅ All code examples updated to modern C++ (C++17/20)
+- ✅ Smart pointers throughout (no more raw `new`/`delete`)
+- ✅ Move semantics and rvalue references explained
+- ✅ Const-correctness and RAII principles emphasized
+- ✅ Fully compilable example code in `examples/` directory
+- ✅ CMakeLists.txt for easy building
+- ✅ Modern C++ Overview guide for quick reference
+- ✅ Best Practices document with industry patterns
+- ✅ Compilation scripts for all examples
+
+### Previous Release (1.0.0):
+
+This was the first edition of this guide. It used outdated C++ patterns that no longer reflect modern best practices.
+
+### Topics Covered:
+
+- ✅ Object-Oriented fundamentals (classes, objects, abstraction)
+- ✅ Encapsulation and access control
+- ✅ Inheritance and class hierarchies
+- ✅ Polymorphism and virtual functions
+- ✅ Move semantics and modern memory management
+
 
 ### "I want to help you improve this guide. How can I do it?"
 
-If you have any feedback regarding the contents of this guide, such as corrections or possible additions, please create a new issue [here](https://github.com/fx-biocoder/oop-in-cpp/issues). This will allow me to keep track of future modifications that need to be implemented. I greatly appreciate the valuable feedback I have received from users. However, please note that I prioritize suggestions that are submitted through the appropriate channels.
+If you have any feedback regarding the contents of this guide, such as corrections or possible additions, please create a new issue [here](https://github.com/fx-biocoder/oop-in-cpp/issues). This will allow me to keep track of future modifications that need to be implemented. I greatly appreciate the valuable feedback I have received from users.
 
 ## 3. Author
 
-- Facundo Martínez © 2023
+- Facundo Martínez © 2026
 
 ## 4. Licensing
 
