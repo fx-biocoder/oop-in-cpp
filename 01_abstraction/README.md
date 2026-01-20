@@ -288,7 +288,7 @@ Person destroyed: Charlie
 
 So far, we have provided a brief introduction to Object-Oriented Programming. Abstraction becomes more intricate as it intertwines with other concepts such as inheritance and polymorphism.
 
-Inheritance enables the creation of class hierarchies, facilitating the sharing of common behaviors among classes. On the other hand, polymorphism allows you to treat objects from derived classes as objects of their own base class. For further information on inheritance and polymorphism, you can refer to resources available [here](https://github.com/fx-biocoder/oop-in-cpp/tree/main/03%20-%20Inheritance) and [here](https://github.com/fx-biocoder/oop-in-cpp/tree/main/04%20-%20Polymorphism).
+Inheritance enables the creation of class hierarchies, facilitating the sharing of common behaviors among classes. On the other hand, polymorphism allows you to treat objects from derived classes as objects of their own base class. For further information on inheritance and polymorphism, you can refer to the Inheritance and Polymorphism resources from this repository.
 
 ## 6. Abstraction in Practice: Advanced Concepts
 
